@@ -10,5 +10,6 @@
     <orderEntry type="library" name="selenium-api-4.2.2-sources" level="project" />
     <orderEntry type="library" name="async-http-client-2.12.3" level="project" />
     <orderEntry type="library" name="webdrivermanager-5.2.0-fat" level="project" />
+    <orderEntry type="library" name="me.tongfei.progressbar" level="project" />
   </component>
 </module>

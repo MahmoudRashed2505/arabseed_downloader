@@ -5,18 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90f53af8-0a8f-410e-a00d-0788afd9b1c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arabseed.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/Scrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Episode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/Series.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Models/VIDEO_TYPE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/me_tongfei_progressbar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/Downloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/Initializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/Movie_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/Series_Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Episode_Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Main_Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Movie_Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Series_Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arabseed.iml" beforeDir="false" afterPath="$PROJECT_DIR$/arabseed.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/Scrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Scrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,18 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/c1ph3r98/Downloads/Programs/webdrivermanager-5.2.0-fat.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/c1ph3r98/Downloads/Programs/webdrivermanager-5.2.0-fat.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <envs>
+        <env name="TERM" value="Linux" />
+      </envs>
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="arabseed" />
       <method v="2">
